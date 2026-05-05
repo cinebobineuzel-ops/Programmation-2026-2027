@@ -1,0 +1,31 @@
+h1
+{
+  color: black;
+  font-size: 40px;
+}
+
+body
+{
+  color: black;
+  background: #f8f8f6;
+  font-size: 20px;
+  font-family: Georgia,'Times New Roman', serif;
+}
+
+#btn-wix {
+  background: black;
+  color: white;
+  padding: 22px 32px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.container
+{
+  text-align: center;
+}
+
+@media print { #btn-wix { display: none !important; } }
